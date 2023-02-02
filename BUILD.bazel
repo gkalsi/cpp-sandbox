@@ -3,3 +3,15 @@ cc_binary(
     srcs = ["std_filesystem/main.cc"],
     copts = ["-std=c++20"],
 )
+
+cc_binary(
+    name="structured_binding",
+    srcs = ["structured_binding/main.cc"],
+    copts = ["-std=c++20"],
+)
+
+cc_binary(
+    name="std_variant",
+    srcs = ["std_variant/main.cc"],
+    copts = ["-std=c++20"],
+)
