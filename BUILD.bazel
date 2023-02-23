@@ -39,3 +39,9 @@ cc_binary(
     srcs = ["merge_sorted_arrays/main.cc"],
     copts = ["-std=c++20"],
 )
+
+cc_binary(
+    name="nth_largest",
+    srcs = ["nth_largest/main.cc"],
+    copts = ["-std=c++20"],
+)
